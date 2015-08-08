@@ -7,13 +7,15 @@ import Foundation
 
 class AuthorizationAPIClient {
 
-    func loginWithUsername(username: String, password: String, completion: (UserSessionPrototype?, NSError) -> Void) {
+    func loginWithUsername(username: String, password: String, completion: (UserSessionPrototype?, NSError?) -> Void) {
         dispatch_async(dispatch_get_main_queue()) {
+
+            let userId = String(format: "%08x", NSUUID().UUIDString.hash)
             let json: [String: AnyObject] = [
                 "result": [
                     "user": [
-                        "id": NSUUID().UUIDString,
-                        "email": "foo@bar.com",
+                        "id": userId,
+                        "email": "\(userId)_foo@bar.com",
                         "name": "Foo Bar"
                     ]
                 ]
