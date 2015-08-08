@@ -11,10 +11,11 @@ struct UserSessionPrototype {
     let userInfo: [String: AnyObject]
 
     init(response: [String: AnyObject]) {
-        // We've hacked parsing a little bit to simplify example
+        // Dirty parsing to simplify our example
         let result = response["result"] as! [String: AnyObject]
+        let user = result["user"] as! [String: AnyObject]
 
-        identifier = userData["id"] as! String
-        userData = result["user"] as! [String: AnyObject]
+        identifier = user["id"] as! String
+        userInfo = user
     }
 }

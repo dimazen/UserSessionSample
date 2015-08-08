@@ -7,5 +7,10 @@ import Foundation
 
 class AuthorizationAPIClient {
 
+    /**
+    Generally
+    **/
+    func loginWithUsername(username: String, password: String, completion: (UserSessionPrototype?, NSError) -> Void) -> Void {
 
+    }
 }

@@ -60,8 +60,8 @@ class UserSessionController {
     func restoreUserSession() -> UserSession? {
         assert(userSession == nil, "It is illegal restore session while ")
 
-        if let identifier = storedSessionIdentifier, let session = UserSession(restorationIdentifier: identifier, pathBuilder: pathBuilder) {
-            self.session = session
+        if let identifier = userSessionIdentifier, let session = UserSession(restorationIdentifier: identifier) {
+            self.userSession = session
             return session
         }
 
@@ -69,6 +69,6 @@ class UserSessionController {
     }
 
     var canRestoreUserSession: Bool {
-        return storedSessionIdentifier != nil
+        return userSessionIdentifier != nil
     }
 }
