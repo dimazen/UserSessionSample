@@ -5,5 +5,7 @@
 
 import Foundation
 
-class UserSessionPathBuilder {
+class AuthorizationAPIClient {
+
+
 }
