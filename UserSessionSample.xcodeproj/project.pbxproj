@@ -10,10 +10,11 @@
 		1D6A30A1559B66F63A900C2C /* AuthorizationAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A31B535F01E8F57F1BF14 /* AuthorizationAPIClient.swift */; };
 		1D6A345E18B9372548CD5C3A /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3B955F6B715B9E3D8229 /* UserSession.swift */; };
 		1D6A36B52DC4376435BCF271 /* UserSessionPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3A121BF0DA7AFBA0610F /* UserSessionPrototype.swift */; };
+		1D6A38942CC316060E3ECB91 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3A298DB1D9814F240C38 /* LoginViewController.swift */; };
 		1D6A39BDA9CAAB4F3050EB0C /* UserSessionPathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3EED98623952D8B03BA6 /* UserSessionPathBuilder.swift */; };
 		1D6A3B9D531BBD68AE36DF73 /* UserSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3A00D647538978A1782A /* UserSessionController.swift */; };
 		AD1FF03F1B763FCA009657E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FF03E1B763FCA009657E4 /* AppDelegate.swift */; };
-		AD1FF0411B763FCA009657E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FF0401B763FCA009657E4 /* ViewController.swift */; };
+		AD1FF0411B763FCA009657E4 /* UserSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FF0401B763FCA009657E4 /* UserSessionViewController.swift */; };
 		AD1FF0441B763FCA009657E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1FF0421B763FCA009657E4 /* Main.storyboard */; };
 		AD1FF0461B763FCA009657E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1FF0451B763FCA009657E4 /* Images.xcassets */; };
 		AD1FF0491B763FCA009657E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1FF0471B763FCA009657E4 /* LaunchScreen.xib */; };
@@ -23,12 +24,13 @@
 		1D6A31B535F01E8F57F1BF14 /* AuthorizationAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationAPIClient.swift; sourceTree = "<group>"; };
 		1D6A3A00D647538978A1782A /* UserSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionController.swift; sourceTree = "<group>"; };
 		1D6A3A121BF0DA7AFBA0610F /* UserSessionPrototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionPrototype.swift; sourceTree = "<group>"; };
+		1D6A3A298DB1D9814F240C38 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1D6A3B955F6B715B9E3D8229 /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		1D6A3EED98623952D8B03BA6 /* UserSessionPathBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionPathBuilder.swift; sourceTree = "<group>"; };
 		AD1FF0391B763FCA009657E4 /* UserSessionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserSessionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1FF03D1B763FCA009657E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD1FF03E1B763FCA009657E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD1FF0401B763FCA009657E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD1FF0401B763FCA009657E4 /* UserSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionViewController.swift; sourceTree = "<group>"; };
 		AD1FF0431B763FCA009657E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD1FF0451B763FCA009657E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD1FF0481B763FCA009657E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -93,12 +95,13 @@
 			isa = PBXGroup;
 			children = (
 				AD1FF03E1B763FCA009657E4 /* AppDelegate.swift */,
-				AD1FF0401B763FCA009657E4 /* ViewController.swift */,
+				AD1FF0401B763FCA009657E4 /* UserSessionViewController.swift */,
 				AD1FF0421B763FCA009657E4 /* Main.storyboard */,
 				AD1FF0451B763FCA009657E4 /* Images.xcassets */,
 				AD1FF0471B763FCA009657E4 /* LaunchScreen.xib */,
 				AD1FF03C1B763FCA009657E4 /* Supporting Files */,
 				1D6A3E493229350FC0069F14 /* Logic */,
+				1D6A3A298DB1D9814F240C38 /* LoginViewController.swift */,
 			);
 			path = UserSessionSample;
 			sourceTree = "<group>";
@@ -181,13 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD1FF0411B763FCA009657E4 /* ViewController.swift in Sources */,
+				AD1FF0411B763FCA009657E4 /* UserSessionViewController.swift in Sources */,
 				AD1FF03F1B763FCA009657E4 /* AppDelegate.swift in Sources */,
 				1D6A345E18B9372548CD5C3A /* UserSession.swift in Sources */,
 				1D6A3B9D531BBD68AE36DF73 /* UserSessionController.swift in Sources */,
 				1D6A39BDA9CAAB4F3050EB0C /* UserSessionPathBuilder.swift in Sources */,
 				1D6A30A1559B66F63A900C2C /* AuthorizationAPIClient.swift in Sources */,
 				1D6A36B52DC4376435BCF271 /* UserSessionPrototype.swift in Sources */,
+				1D6A38942CC316060E3ECB91 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
