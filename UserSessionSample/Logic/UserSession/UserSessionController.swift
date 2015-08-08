@@ -27,8 +27,8 @@ class UserSessionController {
 
     private let apiClient = AuthorizationAPIClient()
 
-    func openSession(#username: String, password: String, completion: (UserSession?, NSError?) -> Void) -> NSURLSessionDataTask {
-        let requestCompletion: (UserSessionPrototype?, NSError?) = { prototype, error in
+    func openSession(#username: String, password: String, completion: (UserSession?, NSError?) -> Void) {
+        let requestCompletion: (UserSessionPrototype?, NSError?) -> Void = { prototype, error in
             if let prototype = prototype {
                 self.userSession = UserSession(prototype: prototype)
                 completion(self.userSession, nil)
