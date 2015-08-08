@@ -44,7 +44,6 @@ class UserSessionController {
         userSession = nil
     }
 
-
     // MARK: - Restoration
 
     private static let userSessionKey = "your.app.bundle.id.userSession"

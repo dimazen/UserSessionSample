@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D6A30A1559B66F63A900C2C /* AuthorizationAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A31B535F01E8F57F1BF14 /* AuthorizationAPIClient.swift */; };
 		1D6A345E18B9372548CD5C3A /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3B955F6B715B9E3D8229 /* UserSession.swift */; };
+		1D6A36B52DC4376435BCF271 /* UserSessionPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3A121BF0DA7AFBA0610F /* UserSessionPrototype.swift */; };
 		1D6A39BDA9CAAB4F3050EB0C /* UserSessionPathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3EED98623952D8B03BA6 /* UserSessionPathBuilder.swift */; };
 		1D6A3B9D531BBD68AE36DF73 /* UserSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3A00D647538978A1782A /* UserSessionController.swift */; };
 		AD1FF03F1B763FCA009657E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FF03E1B763FCA009657E4 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		1D6A31B535F01E8F57F1BF14 /* AuthorizationAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationAPIClient.swift; sourceTree = "<group>"; };
 		1D6A3A00D647538978A1782A /* UserSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionController.swift; sourceTree = "<group>"; };
+		1D6A3A121BF0DA7AFBA0610F /* UserSessionPrototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionPrototype.swift; sourceTree = "<group>"; };
 		1D6A3B955F6B715B9E3D8229 /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		1D6A3EED98623952D8B03BA6 /* UserSessionPathBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionPathBuilder.swift; sourceTree = "<group>"; };
 		AD1FF0391B763FCA009657E4 /* UserSessionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserSessionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,7 @@
 				1D6A3B955F6B715B9E3D8229 /* UserSession.swift */,
 				1D6A3A00D647538978A1782A /* UserSessionController.swift */,
 				1D6A3EED98623952D8B03BA6 /* UserSessionPathBuilder.swift */,
+				1D6A3A121BF0DA7AFBA0610F /* UserSessionPrototype.swift */,
 			);
 			path = UserSession;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				1D6A3B9D531BBD68AE36DF73 /* UserSessionController.swift in Sources */,
 				1D6A39BDA9CAAB4F3050EB0C /* UserSessionPathBuilder.swift in Sources */,
 				1D6A30A1559B66F63A900C2C /* AuthorizationAPIClient.swift in Sources */,
+				1D6A36B52DC4376435BCF271 /* UserSessionPrototype.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
