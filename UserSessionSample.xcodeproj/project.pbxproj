@@ -18,6 +18,7 @@
 		AD1FF0441B763FCA009657E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1FF0421B763FCA009657E4 /* Main.storyboard */; };
 		AD1FF0461B763FCA009657E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1FF0451B763FCA009657E4 /* Images.xcassets */; };
 		AD1FF0491B763FCA009657E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1FF0471B763FCA009657E4 /* LaunchScreen.xib */; };
+		AD1FF05F1B765B7F009657E4 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FF05E1B765B7F009657E4 /* RootRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AD1FF0431B763FCA009657E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD1FF0451B763FCA009657E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD1FF0481B763FCA009657E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AD1FF05E1B765B7F009657E4 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,13 +97,14 @@
 			isa = PBXGroup;
 			children = (
 				AD1FF03E1B763FCA009657E4 /* AppDelegate.swift */,
+				AD1FF05E1B765B7F009657E4 /* RootRouter.swift */,
 				AD1FF0401B763FCA009657E4 /* UserSessionViewController.swift */,
+				1D6A3A298DB1D9814F240C38 /* LoginViewController.swift */,
 				AD1FF0421B763FCA009657E4 /* Main.storyboard */,
 				AD1FF0451B763FCA009657E4 /* Images.xcassets */,
 				AD1FF0471B763FCA009657E4 /* LaunchScreen.xib */,
 				AD1FF03C1B763FCA009657E4 /* Supporting Files */,
 				1D6A3E493229350FC0069F14 /* Logic */,
-				1D6A3A298DB1D9814F240C38 /* LoginViewController.swift */,
 			);
 			path = UserSessionSample;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				AD1FF03F1B763FCA009657E4 /* AppDelegate.swift in Sources */,
 				1D6A345E18B9372548CD5C3A /* UserSession.swift in Sources */,
 				1D6A3B9D531BBD68AE36DF73 /* UserSessionController.swift in Sources */,
+				AD1FF05F1B765B7F009657E4 /* RootRouter.swift in Sources */,
 				1D6A39BDA9CAAB4F3050EB0C /* UserSessionPathBuilder.swift in Sources */,
 				1D6A30A1559B66F63A900C2C /* AuthorizationAPIClient.swift in Sources */,
 				1D6A36B52DC4376435BCF271 /* UserSessionPrototype.swift in Sources */,

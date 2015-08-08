@@ -12,15 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
     let userSessionController = UserSessionController(userDefaults: NSUserDefaults.standardUserDefaults())
+    private var rootRouter: RootRouter!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        if userSessionController.canRestoreUserSession {
-            // lets restore it
-        }  else {
-            // we need to show login
-        }
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
+        rootRouter = RootRouter(userSessionController: userSessionController, window: window!)
+        rootRouter.execute()
+        
         return true
     }
 }

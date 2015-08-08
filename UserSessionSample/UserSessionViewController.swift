@@ -13,10 +13,15 @@ class UserSessionViewController: UIViewController {
     @IBOutlet
     weak private var userSessionLabel: UILabel!
     
-    var userSession: UserSession! {
+    private func updateVisibleState() {
+        userSessionLabel.text = userSession?.identifier
+        title = userSession?.identifier
+    }
+    
+    var userSession: UserSession? {
         didSet {
             if isViewLoaded() {
-                userSessionLabel.text = userSession.identifier
+                updateVisibleState()
             }
         }
     }
@@ -24,7 +29,7 @@ class UserSessionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        userSessionLabel.text = userSession.identifier
+        updateVisibleState()
     }
     
     var didSelectLogout: (UIViewController -> Void)?

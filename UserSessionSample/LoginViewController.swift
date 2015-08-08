@@ -4,6 +4,14 @@
 //
 
 import Foundation
+import UIKit
 
-class LoginViewController {
+class LoginViewController: UIViewController {
+    
+    var didSelectLogin: (UIViewController -> Void)?
+    
+    @IBAction
+    private func login(sender: UIControl!) {
+        didSelectLogin?(self)
+    }
 }
