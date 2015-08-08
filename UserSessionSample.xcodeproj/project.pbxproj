@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D6A36B40D65C65899C9B6A8 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3CC5CD050BBCFA523BC6 /* UserSession.swift */; };
+		1D6A3C8645A47BE7D923A65C /* UserSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A38DF0B0A1EAC77223334 /* UserSessionController.swift */; };
+		1D6A3E49EA004A33EB35ABEE /* UserSessionPathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A347F1038FD20BA579045 /* UserSessionPathBuilder.swift */; };
 		AD1FF03F1B763FCA009657E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FF03E1B763FCA009657E4 /* AppDelegate.swift */; };
 		AD1FF0411B763FCA009657E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FF0401B763FCA009657E4 /* ViewController.swift */; };
 		AD1FF0441B763FCA009657E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1FF0421B763FCA009657E4 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D6A347F1038FD20BA579045 /* UserSessionPathBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionPathBuilder.swift; sourceTree = "<group>"; };
+		1D6A38DF0B0A1EAC77223334 /* UserSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionController.swift; sourceTree = "<group>"; };
+		1D6A3CC5CD050BBCFA523BC6 /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		AD1FF0391B763FCA009657E4 /* UserSessionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserSessionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1FF03D1B763FCA009657E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD1FF03E1B763FCA009657E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6A31EEE989BB0C994F5A05 /* UserSession */ = {
+			isa = PBXGroup;
+			children = (
+				1D6A3CC5CD050BBCFA523BC6 /* UserSession.swift */,
+				1D6A38DF0B0A1EAC77223334 /* UserSessionController.swift */,
+				1D6A347F1038FD20BA579045 /* UserSessionPathBuilder.swift */,
+			);
+			path = UserSession;
+			sourceTree = "<group>";
+		};
 		AD1FF0301B763FCA009657E4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +76,7 @@
 				AD1FF0451B763FCA009657E4 /* Images.xcassets */,
 				AD1FF0471B763FCA009657E4 /* LaunchScreen.xib */,
 				AD1FF03C1B763FCA009657E4 /* Supporting Files */,
+				1D6A31EEE989BB0C994F5A05 /* UserSession */,
 			);
 			path = UserSessionSample;
 			sourceTree = "<group>";
@@ -144,6 +161,9 @@
 			files = (
 				AD1FF0411B763FCA009657E4 /* ViewController.swift in Sources */,
 				AD1FF03F1B763FCA009657E4 /* AppDelegate.swift in Sources */,
+				1D6A36B40D65C65899C9B6A8 /* UserSession.swift in Sources */,
+				1D6A3C8645A47BE7D923A65C /* UserSessionController.swift in Sources */,
+				1D6A3E49EA004A33EB35ABEE /* UserSessionPathBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
